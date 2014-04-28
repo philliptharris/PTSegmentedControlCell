@@ -15,13 +15,15 @@
 		11CE0080190EE140008A72CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CE007F190EE140008A72CC /* AppDelegate.m */; };
 		11CE0083190EE140008A72CC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0081190EE140008A72CC /* Main_iPhone.storyboard */; };
 		11CE0086190EE140008A72CC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CE0084190EE140008A72CC /* Main_iPad.storyboard */; };
-		11CE0089190EE140008A72CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CE0088190EE140008A72CC /* ViewController.m */; };
 		11CE008B190EE140008A72CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CE008A190EE140008A72CC /* Images.xcassets */; };
 		11CE0092190EE140008A72CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CE0091190EE140008A72CC /* XCTest.framework */; };
 		11CE0093190EE140008A72CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CE006F190EE140008A72CC /* Foundation.framework */; };
 		11CE0094190EE140008A72CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CE0073190EE140008A72CC /* UIKit.framework */; };
 		11CE009C190EE140008A72CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11CE009A190EE140008A72CC /* InfoPlist.strings */; };
 		11CE009E190EE140008A72CC /* PTSegmentedControlCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CE009D190EE140008A72CC /* PTSegmentedControlCellTests.m */; };
+		11CE00A9190EE15F008A72CC /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CE00A8190EE15F008A72CC /* MyTableViewController.m */; };
+		11CE00AD190EE1CD008A72CC /* PTSegmentedControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CE00AB190EE1CD008A72CC /* PTSegmentedControlCell.m */; };
+		11CE00AE190EE1CD008A72CC /* PTSegmentedControlCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11CE00AC190EE1CD008A72CC /* PTSegmentedControlCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +49,17 @@
 		11CE007F190EE140008A72CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		11CE0082190EE140008A72CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		11CE0085190EE140008A72CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		11CE0087190EE140008A72CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		11CE0088190EE140008A72CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		11CE008A190EE140008A72CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		11CE0090190EE140008A72CC /* PTSegmentedControlCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTSegmentedControlCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CE0091190EE140008A72CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		11CE0099190EE140008A72CC /* PTSegmentedControlCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTSegmentedControlCellTests-Info.plist"; sourceTree = "<group>"; };
 		11CE009B190EE140008A72CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11CE009D190EE140008A72CC /* PTSegmentedControlCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTSegmentedControlCellTests.m; sourceTree = "<group>"; };
+		11CE00A7190EE15F008A72CC /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		11CE00A8190EE15F008A72CC /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		11CE00AA190EE1CD008A72CC /* PTSegmentedControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTSegmentedControlCell.h; sourceTree = "<group>"; };
+		11CE00AB190EE1CD008A72CC /* PTSegmentedControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTSegmentedControlCell.m; sourceTree = "<group>"; };
+		11CE00AC190EE1CD008A72CC /* PTSegmentedControlCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTSegmentedControlCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +123,11 @@
 				11CE007F190EE140008A72CC /* AppDelegate.m */,
 				11CE0081190EE140008A72CC /* Main_iPhone.storyboard */,
 				11CE0084190EE140008A72CC /* Main_iPad.storyboard */,
-				11CE0087190EE140008A72CC /* ViewController.h */,
-				11CE0088190EE140008A72CC /* ViewController.m */,
+				11CE00A7190EE15F008A72CC /* MyTableViewController.h */,
+				11CE00A8190EE15F008A72CC /* MyTableViewController.m */,
+				11CE00AA190EE1CD008A72CC /* PTSegmentedControlCell.h */,
+				11CE00AB190EE1CD008A72CC /* PTSegmentedControlCell.m */,
+				11CE00AC190EE1CD008A72CC /* PTSegmentedControlCell.xib */,
 				11CE008A190EE140008A72CC /* Images.xcassets */,
 				11CE0076190EE140008A72CC /* Supporting Files */,
 			);
@@ -233,6 +241,7 @@
 			files = (
 				11CE0086190EE140008A72CC /* Main_iPad.storyboard in Resources */,
 				11CE008B190EE140008A72CC /* Images.xcassets in Resources */,
+				11CE00AE190EE1CD008A72CC /* PTSegmentedControlCell.xib in Resources */,
 				11CE0083190EE140008A72CC /* Main_iPhone.storyboard in Resources */,
 				11CE007A190EE140008A72CC /* InfoPlist.strings in Resources */,
 			);
@@ -253,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11CE0089190EE140008A72CC /* ViewController.m in Sources */,
+				11CE00AD190EE1CD008A72CC /* PTSegmentedControlCell.m in Sources */,
 				11CE0080190EE140008A72CC /* AppDelegate.m in Sources */,
 				11CE007C190EE140008A72CC /* main.m in Sources */,
+				11CE00A9190EE15F008A72CC /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +480,7 @@
 				11CE00A3190EE140008A72CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11CE00A4190EE140008A72CC /* Build configuration list for PBXNativeTarget "PTSegmentedControlCellTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +489,7 @@
 				11CE00A6190EE140008A72CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
